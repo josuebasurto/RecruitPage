@@ -1,7 +1,8 @@
-SuperAwesome - coming-soon / landing Bootstrap template
+![Sonata Logo](https://22cc841a7adc8fba20b536b71712d729493a45de-www.googledrive.com/host/0B1rvZl5pbtvSUUVDNGc3MnNDRE0/assets/images/logo.svg "Sonata Logo") Recruit Page
 =============
+Coming Soon
 
-SuperAwesome is a free responsive, single-page coming-soon template based on Twitter Bootstrap framework. 
+Using SuperAwesome is a free responsive, single-page coming-soon template based on Twitter Bootstrap framework. 
 
 
 License
