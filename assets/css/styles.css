@@ -110,9 +110,9 @@ a:visited { color: #D87563; }
 	padding-bottom: 0px;
 }
 .header h1 {
-	font-family: "helveticaneue-light";
-	font-size: 40px;
-	font-weight: bold;
+	font-family: "Nexa Bold";
+	font-size: 4apx;
+	font-weight: 9a0;
 	margin: 35px 0 10px 0;
 	text-align: center;
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
@@ -162,6 +162,22 @@ a:visited { color: #D87563; }
 .margin-form-fix {
 	margin-left: 93px;
 }
+
+/********************************************************/
+/*         Position Titles  H2 Content                  */
+/********************************************************/
+
+.label-horizontal {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  background: #2e52a9;
+  color: #fff;
+  background-size: cover;
+}
+
+
 
 /********************************************************/
 /*          Illustration and its animation              */
