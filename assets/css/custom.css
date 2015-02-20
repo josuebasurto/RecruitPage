@@ -132,3 +132,13 @@
 body{
   overflow: auto;
 }
+.header {
+background: url("../../assets/images/header1.jpg") center top;
+height: 500px;
+width: 100%;
+color: white;
+margin-bottom: 0;
+padding-bottom: 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
