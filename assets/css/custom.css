@@ -129,4 +129,6 @@
     bottom: 30px;
   }
 }
-
+body{
+  overflow: auto;
+}
