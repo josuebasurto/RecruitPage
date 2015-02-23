@@ -76,6 +76,7 @@ body {
 .marketing h2 {
   font-weight: normal;
   font-family: 'helveticaneue-light';
+  color:#555555;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;

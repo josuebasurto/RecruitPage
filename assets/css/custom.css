@@ -1,3 +1,25 @@
+.mbutton{
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-default1 {
+  color: #ffffff;
+  background-color: #2e52a9;
+  border-color: #cccccc;
+}
+
+.btn-default1:hover,
+.btn-default1:focus,
+.btn-default1:active,
+.btn-default1.active,
+.open .dropdown-toggle.btn-default {
+  color: #ffffff;
+  background-color: #00aced;
+  border-color: #00aced;
+}
+
 .demo-pricing {
 	margin-top: 10px;
 	margin-right: 10px;
@@ -37,6 +59,8 @@
 	background-color: #2e52a9;
 	box-shadow: 0px 3px 0px 0px #fff;
     text-decoration: none;
+    margin-left: 400px;
+    margin-top: -60px;
 }
 .demo-pricing-1:hover {
 	background-color: #1baae3;
@@ -49,8 +73,13 @@
 
 
 
+
+
+
+
 .share-buttons{
 	list-style: none;
+  padding: 0px 10% 0px 30%;
 }
 
 .share-buttons li{
@@ -133,8 +162,8 @@ body{
   overflow: auto;
 }
 .header {
-background: url("../../assets/images/header1.jpg");
-height: 500px;
+background: url("../../assets/images/bw.jpg");
+height: 650px;
 width: 100%;
 color: white;
 margin-bottom: 0;
@@ -150,4 +179,9 @@ margin-right: 0px!important;
 
 /*  Share Buttons  */
 
+.img-responsive {
+  display: block;
+  max-width: 60%!important;
+  height: auto;
+}
 
