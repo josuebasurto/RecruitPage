@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Sonata Admin" />
+	<meta name="author" content="Sonata Admin" />
+	<!--holis-->
+	<title>Sonata Admin Login</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/login.css">
+
+	<script src="assets/js/jquery-2.1.3.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+	
+
+	</head>
+	<body class="page-body login-page">
+
+
+		<div class="login-container">
+
+			<div class="rowlog">
+				<!-- Errors container -->
+				<div class="errors-container">
+
+				</div>
+				
+				<!-- Add class "fade-in-effect" for login form effect -->
+				<div id="todoapp">
+
+					<div class="content">
+					</div>
+				</div>
+
+
+
+
+			</div>
+
+		</div>
+
+
+		<!-- Templates -->
+
+		<script type="text/template" id="login-template">
+			<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-7">
+            <div class="panel panel-default">
+                <div class="panel-heading"> <strong class="">Login</strong>
+
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal login-form" role="form">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control input-dark" id="login-username" placeholder="Username" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+                            <div class="col-sm-9">
+                                <input class="form-control input-dark" type="password" id="login-password" placeholder="Password" />
+                            </div>
+                        </div>
+                        <div class="form-group last">
+                            <div class="col-sm-offset-3 col-sm-9">
+                                <button class="btn btn-dark  btn-block text-left">
+								<i class="fa-lock"></i>Log In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		</script>
+
+		<script type="text/template" id="manage-todos-template">
+		<div id="user-info">
+		Signed in as <%= Parse.User.current().escape("username") %> (<a href="#" class="log-out">Log out</a>)
+		</div>
+
+		<div class="section">
+
+		<header id="header">
+		<input id="new-todo" placeholder="What needs to be done?" type="text" />
+		</header>
+
+		<div id="main">
+		<input id="toggle-all" type="checkbox">
+		<label for="toggle-all">Mark all as complete</label>
+
+		<ul id="todo-list">
+		<img src='assets/imges/spinner.gif' class='spinner' />
+		</ul>
+		</div>
+
+		<div id="todo-stats"></div>
+		</div>
+		</script>
+
+		<script type="text/template" id="item-template">
+		<li class="<%= done ? 'completed' : '' %>">
+		<div class="view">
+		<input class="toggle" type="checkbox" <%= done ? 'checked="checked"' : '' %>>
+		<label class="todo-content"><%= _.escape(content) %></label>
+		<button class="todo-destroy"></button>
+		</div>
+		<input class="edit" value="<%= _.escape(content) %>">
+		</li>
+		</script>
+
+		<script type="text/template" id="stats-template">
+		<footer id="footer">
+		<span id="todo-count"><strong><%= remaining %></strong> <%= remaining == 1 ? 'item' : 'items' %> left</span>
+		<ul id="filters">
+		<li>
+		<a href="javascript:void(0)" id="all" class="selected">All</a>
+		</li>
+		<li>
+		<a href="javascript:void(0)" id="active">Active</a>
+		</li>
+		<li>
+		<a href="javascript:void(0)" id="completed">Completed</a>
+		</li>
+		</ul>
+		<button id="clear-completed">Clear completed (<%= done %>)</button>
+		</footer>
+		</script>
+
+		<!-- Bottom Scripts -->
+				<script src="https://www.parse.com/downloads/javascript/parse-1.3.1.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery-validate/jquery.validate.min.js"></script>
+		<script src="assets/js/lg.js"></script>
+		<script src="assets/js/underscore.js"></script>
+
+		</body>
+		</html>

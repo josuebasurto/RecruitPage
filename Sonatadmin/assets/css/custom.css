@@ -1,0 +1,65 @@
+.middlewidth{margin-left: 50%;}
+.footer{background-color: black;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;}
+	.padbot{padding-bottom: 40px;
+		padding-top: 50px;
+	}
+	.headerbroad{
+		padding-top: 50px;
+		text-align: center;
+		background-color: #2D52A9;
+		background-size: cover;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: 0px!important;
+		margin-left: 0px!important;
+		width: 100%!important;
+		height: 200px;
+		color: white;
+	}
+
+	.headerbroad img{
+		width: 200px;
+		position: absolute;
+		top: 28%;
+		left: 43%;
+
+	}
+	.modal-content {
+		padding: 20px 20px 20px 20px;
+		position: relative;
+		background-color: #fff;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		border: 1px solid #999;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: 6px;
+		outline: 0;
+		-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+		box-shadow: 0 3px 9px rgba(0,0,0,.5);
+	}
+	.pad20{padding: 20px 20px 20px 20px;}
+
+	.imgtrd{width:100%; max-width:300px; height: 100%; max-height:200px; border-radius: 30px;}
+	.paddingtdr{padding: 25px 20px 25px 10px;}
+	.bigletters{font-size: 18px;}
+	.textend{margin-left: 40%; } 
+	.btnstacksize {width: 100px; }
+	.marginadd{margin-left: 15px; }
+	.logosidebarc{
+		width: 100%;
+		max-width: 200px;
+		height: 100%;
+		max-height: 200px;
+		border-radius: 30px;
+	}
+	.sidebar-menu {display: table-cell; position: relative; width: 269px; background: #2c2e2f; z-index: 1; }
+	.superleft{padding-left: 30px;}
+	.imgtrdc{width:100%; max-width:196px; height: 100%; max-height:200px; border-radius: 30px;}
+	.fit{margin: -30px;}
+	.fontnavmenu{font-size: 11px;}
+	.badge.badge-white {background-color: #fff; color: #333; -webkit-box-shadow: 0px 0px 0px 1px #dddddd; -moz-box-shadow: 0px 0px 0px 1px #dddddd; box-shadow: 0px 0px 0px 1px #dddddd; z-index: 200; }
+	.badge.badge-red {background-color: #d5080f; z-index: 200; }
