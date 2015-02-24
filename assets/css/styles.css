@@ -108,7 +108,7 @@ a:visited { color: #D87563; }
 	margin: 35px 0 10px 0;
 	text-align: center;
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-	color:#F6EFDD;
+	color:#fff;
 }
 .header h2 {
 	color:#F6EFDD;
@@ -122,7 +122,7 @@ a:visited { color: #D87563; }
 .header p { font-size: 15px; line-height: 1.2em;}
 .header .lead {
 	font-family: "Nexa light", Arial;
-	color:#555555;
+	color:#fff;
 	line-height: 1.2em;
 	font-size: 18px;
 	font-weight: 300;
@@ -135,10 +135,10 @@ a:visited { color: #D87563; }
 	text-align: center;
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
-.header .text-muted { color:white; opacity: 0.5; }
+.header .text-muted { color:white; opacity: 0.9; }
 
 .header form { margin-bottom: 18px; }
-.header .form-control { background: rgba(5,5,5,0.4); border: 0; color: white; font-size:15px;}
+.header .form-control { background: rgba(5,5,5,0.72); border: 0; color: white; font-size:15px;}
 .header .form-control::-webkit-input-placeholder { color: rgba(255,255,255,0.3); }
 .header .form-control:-moz-placeholder { color: rgba(255,255,255,0.3); }
 .header .form-control::-moz-placeholder { color: rgba(255,255,255,0.3); }
@@ -167,13 +167,14 @@ a:visited { color: #D87563; }
   background: #2e52a9;
   color: #fff;
   background-size: cover;
+
 }
 
 .label-horizontal h2 {
  text-align: center;
  vertical-align:  sub;
  padding-top:10px;
- font-family: 'helveticaneue-light';
+ font-family: 'Nexa Light';
 }
 
 
