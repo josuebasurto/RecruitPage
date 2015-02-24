@@ -55,7 +55,7 @@
 body, .content {
 	background: #F0F0F0;
   font-family: 17px/22px 'helveticaneue-light';
-	color:#444444;
+	color:#555;
 }
 
 .img-centered {
@@ -212,7 +212,7 @@ a:visited { color: #D87563; }
 	background:#f5f5f5;
 }
 
-.content .lead { font-family: 'helveticaneue-light', sans-serif;  color:#444; }
+.content .lead { font-family: 'helveticaneue-light', sans-serif;  color:#555; }
 
 .space-before { padding-top:20px; }
 .space-after { padding-bottom:20px; }
