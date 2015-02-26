@@ -109,14 +109,30 @@ a:visited { color: #D87563; }
 	margin-bottom: 0;
 	padding-bottom: 0px;
 }
-.header h1 {
-	font-family: "Nexa Bold";
-	font-size: 40px;
-	font-weight: 900;
-	margin: 35px 0 10px 0;
-	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-	color:#FFF;
+
+.header h1{
+font-family: "Nexa Bold";
+font-size: 40px;
+font-weight: 900;
+margin: 35px 0 10px 0;
+text-align: center;
+text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+color: rgba(45, 82, 169, 0.8);
+}
+
+
+.header .lead {
+font-family: "Nexa bold", Arial;
+color: rgba(45, 82, 169, 1);
+line-height: 1.2em;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+text-shadow: 0 2px 0 white;
+}
+
+.header .text-muted {
+color: rgba(45, 82, 169, 1);
 }
 .header h2 {
 	color: rgba(255,255,255,.9);
@@ -128,35 +144,26 @@ a:visited { color: #D87563; }
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
 .header p { font-size: 15px; line-height: 1.2em;}
-.header .lead {
-	font-family: "Nexa light", Arial;
-	color: #fff;
-	line-height: 1.2em;
-	font-size: 18px;
-	font-weight: 400;
-	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.9);
-}
 .header .small {
 	font-size: 0.9em;
 	line-height: 1.2em;
 	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 2px 0 black;
 }
-.header .text-muted { color:white; opacity: 0.5; }
+
 
 .header form { margin-bottom: 18px; }
 .header .form-control { background: rgba(5,5,5,0.8); border: 0; color: white; font-size:15px;}
-.header .form-control::-webkit-input-placeholder { color: rgba(255,255,255,0.3); }
-.header .form-control:-moz-placeholder { color: rgba(255,255,255,0.3); }
-.header .form-control::-moz-placeholder { color: rgba(255,255,255,0.3); }
-.header .form-control:-ms-input-placeholder { color: rgba(255,255,255,0.3); }
+.header .form-control::-webkit-input-placeholder { color: rgba(45, 82, 169, 0.8); }
+.header .form-control:-moz-placeholder { color: rgba(45, 82, 169, 0.8); }
+.header .form-control::-moz-placeholder { color: rgba(45, 82, 169, 0.8); }
+.header .form-control:-ms-input-placeholder { color: rgba(45, 82, 169, 0.8); }
 .header .btn-default {
-	background: rgba(255,255,255,.06);
-	border: 1px solid rgba(255,255,255,.8);
-	color: rgba(255,255,255,.8);
-	font-size:15px;
-	padding: 12px 36px;
+background: rgba(45, 82, 169, 0.8);
+border: 1px solid rgba(255,255,255,.8);
+color: rgba(255,255,255,.8);
+font-size: 15px;
+padding: 12px 36px;
 }
 
 .margin-form-fix {
@@ -258,7 +265,7 @@ a:visited { color: #D87563; }
 }
 @media (min-width: 992px) {
 
-	.header h1 { font-size: 55px; margin-top: 50px; }
+	.header h1 { font-size: 55px; margin-top: 50px;}
 	.header h2 { margin-bottom: 40px;}
 	.header p { font-size: 15px; }
 
