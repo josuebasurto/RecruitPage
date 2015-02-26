@@ -25,7 +25,7 @@
 }
 .demo-pricing:active {
 	padding-top: 15px;
-        margin-bottom: -1px;
+  margin-bottom: -1px;
 }
 .demo-pricing, .demo-pricing:hover, .demo-pricing:active {
 	outline: 0 none;
@@ -36,15 +36,15 @@
 .demo-pricing-1 {
 	background-color: #2e52a9;
 	box-shadow: 0px 3px 0px 0px #fff;
-    text-decoration: none;
+  text-decoration: none;
 }
 .demo-pricing-1:hover {
 	background-color: #1baae3;
 }
 .demo-pricing-1:active {
 	box-shadow: 0px 1px 0px 0px #fff;
-    text-decoration: none;
-    color:#fff;
+  text-decoration: none;
+  color:#fff;
 }
 
 
@@ -58,23 +58,23 @@
 }
 
 .btn-file {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 .btn-file input[type=file] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    font-size: 100px;
-    text-align: right;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    outline: none;
-    background: white;
-    cursor: inherit;
-    display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
 }
 
 
@@ -138,17 +138,16 @@ body{
 }
 
 .header {
-background: url("../../assets/images/header.jpg");
-height: 650px;
-width: 100%;
-color: white;
-margin-bottom: 0;
-padding-bottom: 0px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: top center;
+  background: url("../../assets/images/header.jpg");
+  height: 650px;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 .row {
-margin-left: 0px!important;
-margin-right: 0px!important;
+  margin-left: 0px!important;
+  margin-right: 0px!important;
 }
