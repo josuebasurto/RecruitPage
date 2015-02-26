@@ -172,3 +172,11 @@ body{
   margin-left: 0px!important;
   margin-right: 0px!important;
 }
+.lead {
+margin-bottom: 0px;
+font-size: 16px;
+font-weight: 200;
+line-height: 1.4;
+font-family: 'Nexa Light';
+}
+.mgb20{padding-bottom: 20px;}
