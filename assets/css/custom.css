@@ -51,6 +51,7 @@
 
 .share-buttons{
 	list-style: none;
+  padding-left: 0px;
 }
 
 .share-buttons li{
