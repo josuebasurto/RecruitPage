@@ -132,15 +132,17 @@
 body{
   overflow: auto;
 }
+
 .header {
-background: url("../../assets/images/header.jpg") center top #f8f8f8;
-height: 500px;
+background: url("../../assets/images/header.jpg");
+height: 650px;
 width: 100%;
 color: white;
 margin-bottom: 0;
 padding-bottom: 0px;
 background-repeat: no-repeat;
-background-size: 100% 100%;
+background-size: cover;
+background-position: top center;
 }
 .row {
 margin-left: 0px!important;
