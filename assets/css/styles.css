@@ -102,7 +102,7 @@ a:visited { color: #D87563; }
 /*                        Header                        */
 /********************************************************/
 .header {
-	background: url("../../assets/images/header1.jpg") center top ;
+	background: url("../../assets/images/header.jpg") center top #f8f8f8 ;
 	height: 500px;
 	width: 100%;
 	color: white;

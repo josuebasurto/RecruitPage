@@ -133,7 +133,7 @@ body{
   overflow: auto;
 }
 .header {
-background: url("../../assets/images/header1.jpg") center top;
+background: url("../../assets/images/header.jpg") center top #f8f8f8;
 height: 500px;
 width: 100%;
 color: white;
