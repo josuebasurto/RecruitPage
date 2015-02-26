@@ -103,7 +103,7 @@ a:visited { color: #D87563; }
 /********************************************************/
 .header {
 	background: url("../../assets/images/header.jpg") center top #f8f8f8 ;
-	height: 500px;
+	height: 650px;
 	width: 100%;
 	color: white;
 	margin-bottom: 0;
@@ -111,12 +111,12 @@ a:visited { color: #D87563; }
 }
 .header h1 {
 	font-family: "Nexa Bold";
-	font-size: 4apx;
-	font-weight: 9a0;
+	font-size: 40px;
+	font-weight: 900;
 	margin: 35px 0 10px 0;
 	text-align: center;
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-	color:#F6EFDD;
+	color:#FFF;
 }
 .header h2 {
 	color: rgba(255,255,255,.9);
@@ -130,12 +130,12 @@ a:visited { color: #D87563; }
 .header p { font-size: 15px; line-height: 1.2em;}
 .header .lead {
 	font-family: "Nexa light", Arial;
-	color: rgba(255,255,255,.9);
+	color: #fff;
 	line-height: 1.2em;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
-	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.9);
 }
 .header .small {
 	font-size: 0.9em;
