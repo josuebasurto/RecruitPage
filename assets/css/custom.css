@@ -193,16 +193,26 @@ font-family: 'Nexa Light';
   background-position: center bottom;
 }
 .portfolio img {
-  max-width: 100%;
-  position: relative;
-  border-radius: 50%;
-  display: block;
-  height: 200px;
-  width: 100%;
+max-width: 100%;
+position: relative;
+border-radius: 50%;
+display: block;
+height: 250px;
+width: 100%;
 }
 #twitter-widget-0, #twitter-widget-1 {
   float: none; 
   width: 600px !important;  
   height: 650px !important;
 
+}
+#portfoliolist .portfolio {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+width: 250px;
+margin: 1%;
+display: none;
+float: left;
+overflow: hidden;
 }
