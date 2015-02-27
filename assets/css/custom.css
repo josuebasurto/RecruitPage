@@ -233,9 +233,15 @@ border-radius: .25em;
 position: absolute;
 width: 100%;
 height: 100%;
-/* bottom: -40px; */
+bottom: 0px;
 border-radius: 50%;
-/* height: 150px; */
 overflow: hidden;
-/* width: 150px; */
+opacity: 0;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+}
+.portfolio .label:hover{
+  opacity: .75;
 }

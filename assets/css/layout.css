@@ -98,13 +98,13 @@
 }
 
 .portfolio .label-bg {
-	background: #2D52A9;
+	background: #113589;
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0.55;
+	
 }
 
 .portfolio .label-text {
