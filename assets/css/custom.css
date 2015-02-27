@@ -200,3 +200,9 @@ font-family: 'Nexa Light';
   height: 200px;
   width: 100%;
 }
+#twitter-widget-0, #twitter-widget-1 {
+  float: none; 
+  width: 600px !important;  
+  height: 650px !important;
+
+}
