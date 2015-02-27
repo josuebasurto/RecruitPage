@@ -57,11 +57,11 @@
 			// Simple parallax effect
 			$('#portfoliolist .portfolio').hover(
 				function () {
-					$(this).find('.label').stop().animate({bottom: 80}, 500, 'easeOutQuad');
+					$(this).find('.label').stop().animate({bottom: 0}, 500, 'easeOutQuad');
 					$(this).find('img').stop().animate({top: 0}, 500, 'easeOutQuad');				
 				},
 				function () {
-					$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+					$(this).find('.label').stop().animate({bottom: -250}, 200, 'easeInQuad');
 					$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
 				}		
 				);				
