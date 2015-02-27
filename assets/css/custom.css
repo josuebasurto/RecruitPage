@@ -199,6 +199,9 @@ border-radius: 50%;
 display: block;
 height: 250px;
 width: 100%;
+filter: gray;
+filter: grayscale(1);
+-webkit-filter: grayscale(1);
 }
 #twitter-widget-0, #twitter-widget-1 {
   float: none; 
