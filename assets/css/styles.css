@@ -47,6 +47,10 @@ body, .content {
 	background: #F0F0F0;
   font-family: 17px/22px 'helveticaneue-light';
 	color:#333;
+
+}
+html{
+  overflow-x:hidden; 
 }
 
 .img-centered {
