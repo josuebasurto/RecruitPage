@@ -180,3 +180,23 @@ line-height: 1.4;
 font-family: 'Nexa Light';
 }
 .mgb20{padding-bottom: 20px;}
+
+.socialheader{
+  background: url("../../assets/images/bgc.jpg");
+  height: 650px;
+  width: 100%;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.portfolio img {
+  max-width: 100%;
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 100%;
+}
