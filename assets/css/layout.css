@@ -1,9 +1,4 @@
-body {
-	font-family: Helvetica, Arial, Verdana;
-	background: #efefef url('../img/ticks.png') repeat 0 0;
-	margin:15px 0 0 0;
-	font-size:12px;
-}
+
 
 #info {
 	-webkit-border-radius:5px;
