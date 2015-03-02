@@ -245,3 +245,7 @@ opacity: 0;
 .portfolio .label:hover{
   opacity: .75;
 }
+.socialheader h1{
+  padding-top: 48%;
+text-decoration: underline;
+}
