@@ -184,7 +184,7 @@ font-family: 'Nexa Light';
   height: 650px;
   width: 100%;
   color: white;
-  margin-bottom: 0;
+  margin-bottom: -140px;
   padding-bottom: 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +203,7 @@ filter: grayscale(1);
 }
 #twitter-widget-0, #twitter-widget-1 {
   float: none; 
-  width: 600px !important;  
+  width: 930px !important;  
   height: 650px !important;
 
 }
