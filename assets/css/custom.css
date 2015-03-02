@@ -171,11 +171,11 @@
   margin-right: 0px!important;
 }
 .lead {
-margin-bottom: 0px;
-font-size: 16px;
-font-weight: 200;
-line-height: 1.4;
-font-family: 'Nexa Light';
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+  font-family: 'Nexa Light';
 }
 .mgb20{padding-bottom: 20px;}
 
@@ -191,55 +191,55 @@ font-family: 'Nexa Light';
   background-position: center bottom;
 }
 .portfolio img {
-max-width: 100%;
-position: relative;
-border-radius: 50%;
-display: block;
-height: 250px;
-width: 100%;
-filter: gray;
-filter: grayscale(1);
--webkit-filter: grayscale(1);
+  max-width: 100%;
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  height: 250px;
+  width: 100%;
+  filter: gray;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 #twitter-widget-0, #twitter-widget-1 {
   float: none; 
-  width: 930px !important;  
+  width: 800px !important;  
   height: 650px !important;
 
 }
 #portfoliolist .portfolio {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--o-box-sizing: border-box;
-width: 250px;
-margin: 1%;
-display: none;
-float: left;
-overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width: 250px;
+  margin: 1%;
+  display: none;
+  float: left;
+  overflow: hidden;
 }
 .label {
-display: inline;
-padding: .2em .6em .3em;
-font-size: 75%;
-font-weight: 100;
-line-height: 1;
-color: #ffffff;
-text-align: center;
-white-space: nowrap;
-vertical-align: baseline;
-border-radius: .25em;
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 100;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
 }
 .portfolio .label {
-position: absolute;
-width: 100%;
-height: 100%;
-bottom: 0px;
-border-radius: 50%;
-overflow: hidden;
-opacity: 0;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 
 }
 .portfolio .label:hover{
@@ -247,4 +247,17 @@ opacity: 0;
 }
 .socialheader h1{
   padding-top: 48%;
+}
+#filters {
+  margin: 1%;
+
+  padding-left: 15%;
+  list-style: none;
+}
+#portfoliolist{
+  padding-left: 5%;
+}
+.fix{
+  position: relative;
+  right: 60px;
 }
