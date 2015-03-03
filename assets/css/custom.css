@@ -247,7 +247,7 @@
 }
 .socialheader h1{
   padding-top: 48%;
-  font-family: 'Nexa Light';
+  font-family: 'Nexa bold';
   font-weight: 900;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
@@ -263,4 +263,8 @@
 .fix{
   position: relative;
   right: 60px;
+}
+.fonthelbold{
+  font-family: 'Nexa bold';
+  font-weight: 900;
 }
