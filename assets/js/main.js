@@ -25,4 +25,6 @@ jQuery(document).ready(function($){
 		);
 	});
 
+	/* ee */
+	var easter_egg = new Konami(function() { alert('Hi there, nice to meet you! Join Sonata')});
 });
