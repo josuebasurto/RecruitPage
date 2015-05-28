@@ -160,7 +160,14 @@
   background-repeat: no-repeat;
 }
 
-
+.header.china{
+  background: rgba(0, 0, 0, 0) url("../../assets/images/bgc.jpg") no-repeat scroll center bottom / cover ;
+  color: white;
+  height: 650px;
+  margin-bottom: -95px;
+  padding-bottom: 0;
+  width: 100%;
+}
 
 .margin-top{
 
@@ -267,4 +274,35 @@
 .fonthelbold{
   font-family: 'Nexa bold';
   font-weight: 900;
+}
+
+#location-select{
+  background-color: rgba(46, 82, 169, 1);
+  padding: 20px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 99999;
+  opacity: .5;  
+  transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s;
+}
+#location-select:hover{
+  opacity: 1;
+}
+#location-select ul{
+  padding: 0px;
+}
+#location-select li{
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+#location-select li:last-child{
+  margin: 0px;
+}
+#location-select li a{
+  color:#FFF;
+}
+#location-select li.selected a{
+  text-decoration: underline;
 }
