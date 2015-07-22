@@ -1,0 +1,28 @@
+.jb-block {
+	margin-bottom: 10px;
+}
+
+.jb-block img{
+	margin: 20px 20px 0px 0px;
+}
+
+.jb-block a{
+	float: right;
+}
+
+.jb-position {
+	background-color: #FFF;
+	margin: 20px 10px;
+	padding: 10px 10px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.jb-position ul.share-buttons li a img {
+	margin: 5px;
+}
+
+.jb-position ul.share-buttons li a {
+	float: left;
+}
